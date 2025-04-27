@@ -50,6 +50,10 @@ uint32_t getUniqueAddress(void);
 #include "t-beam-s3-pins.h"
 #endif
 
+#ifdef WITH_T5S3
+#include "t5s3-pins.h"
+#endif
+
 #ifdef WITH_HTIT_TRACKER
 #include "htit-tracker-pins.h"
 #endif
